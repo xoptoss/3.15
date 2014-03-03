@@ -1,0 +1,51 @@
+package Main;
+
+public class Date {
+
+
+	private int Days;
+	private int Months;
+	private int Years;
+
+	public Date(int day,int month, int year)
+	{
+		Days = day;
+		Months = month;
+		Years = year;
+	}
+	public void setDay(int day )
+	{
+		day = Days ;
+	}
+	public int getDay()
+	{
+		return Days;
+	}
+	public void setMonth( int month )
+	{
+		Months = month;
+	}
+	public int getMonth()
+	{
+		return Months;
+	}
+	public void setYears( int year )
+	{
+		Years = year;
+	}
+	public int getYear()
+	{
+		return Years;
+	}
+	public String toString()
+	{
+		return getDay() + " " + getMonth() + " " + getYear();
+	} 
+}
+
+
+
+
+
+
+
